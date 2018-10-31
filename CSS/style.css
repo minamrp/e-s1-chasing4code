@@ -1,0 +1,308 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mother1 {
+    position: relative;
+    height: 2000px;
+}
+
+/*Header......................................................................*/
+
+.header {
+    height: 105px;
+    font-family: 'Rubik';
+    position: fixed;
+    width: 100%;
+}
+
+.teamName {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(9, 157, 141, 0.89);
+}
+
+.teamName h1 {
+    font-family: 'Rubik';
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.menu{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(20, 217, 196, 0.8);
+    text-align: center;
+    }
+
+
+.barra--ul {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    list-style: none;
+    height: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+.barra--ul li{
+    margin-right: 40px;
+}
+
+.nodeco{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+/*...............................................................................*/
+
+
+/*Hero and claim..................................................................*/
+
+.hero {
+    width: 100%;
+    position: absolute;
+}
+
+.mother{
+    position: relative;
+}
+
+.cover{
+    background-image: url(../imagen/grupo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 421px;
+    width: 100%;
+}
+
+
+.claim {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Rubik', 'Open Sans', 'sans-serif';
+    padding: 15px;
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    text-align: center;
+    top: 395px;
+    left: 15px;
+    right: 15px;
+}
+/*.................................................................................*/
+
+/*Sections.........................................................................*/
+
+.margintop{
+    position: absolute;
+    top: 477px;
+}
+
+
+.team{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099d8d;
+    display: block;
+    text-align: center;
+}
+
+.paragraph-team {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: #54585a 100%;
+        display: block;
+        text-align: center;
+}
+
+.pros-and-cons {
+    position: absolute;
+    top: 785px;
+    background-color: rgba(236, 233, 233, 0.89);
+}
+
+.strenght{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    color: #099d8d;
+    display: block;
+    text-align: center;
+}
+
+.paragraph-strenght {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a 100%;
+    display: block;
+    text-align: center;
+}
+
+.weakness{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    color: #099d8d;
+    display: block;
+    text-align: center;
+}
+
+.paragraph-weakness {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a 100%;
+    display: block;
+    text-align: center;
+}
+/*...................................................................................*/
+
+
+/* Quienes somos................................................................... */
+
+.quienessomos{
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 2000px;
+    position: absolute;
+    top: 1057px;
+}
+
+
+
+.titleqs{
+    font-family: 'Rubik';
+    font-size: 24px;
+    color: #099d8d;
+    margin: 30px auto;
+
+}
+
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    transform: rotate(90deg);
+
+}
+
+
+.imgEm{
+    background: url("../imagen/emma.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.imgDesi{
+    background: url("../imagen/desiree.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.imgKati{
+    background: url("../imagen/katia.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.imgIn{
+    background: url("../imagen/inma.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+
+}
+
+.imgMa{
+    background: url("../imagen/marina.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.social{
+    margin: auto;   
+    padding-top: 15px;  
+    padding-bottom: 45px;  
+}
+
+
+.social span, i{
+    font-size: 14px;
+    color: #099d8d;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    padding-top: 15px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+.description{
+    font-family: 'Open Sans';
+}
+
+
+/*  ..................................................................................*/
+
+
+/* Footer ...........................................................................*/
+.footerall {
+    position: absolute;
+    top: 3057px;
+    left: 0;
+    right: 0;
+}
+
+.footer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: b8b8b9 100%;
+    border-top: 1px solid gray;
+    padding: 30px;      
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+small{
+    font-size: 14px;
+}
+
+
+.foot{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #54585a 100%;
+    display: block;
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    text-align: center;
+}
+/*...................................................................................*/
