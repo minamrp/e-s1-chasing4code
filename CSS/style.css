@@ -142,6 +142,67 @@
     background-color: rgba(236, 233, 233, 0.89);
 }
 
+/* Strenghts and weaknesses-tablet and desktop version */
+@media all and (min-width:768px) and (max-width:1200px){
+
+    .padding30{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .weak-strength {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .box1{
+        max-width: 50%;
+      
+    }
+    .box2{
+        max-width: 50%;
+        
+    }
+
+    .box1_pa{
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    .box2_pa{
+        margin-left: 15px;
+        margin-right: auto;
+    }
+}
+@media all and (min-width:1200px){
+
+    .padding30{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .weak-strength {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .box1{
+        max-width: 50%;
+      
+    }
+    .box2{
+        max-width: 50%;
+        
+    }
+
+    .box1_pa{
+        margin-left: auto;
+        margin-right: 22.5px;
+    }
+    .box2_pa{
+        margin-left: 22.5px;
+        margin-right: auto;
+    }
+}
+/*...................................................... */
+
 /* pseudo element triangle separator at the end of TEAM section */
 #team:after {
     border-top: 30px solid #ffffff;
