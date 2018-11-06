@@ -26,7 +26,7 @@
     font-family: 'Rubik';
     font-size: 16px;
     text-align: center;
-    font-weight: 400; 
+    font-weight: 500; 
 }
 
 
@@ -63,7 +63,7 @@
 .white-link, .white-link a {
     color: #FFFFFF;
     font-size: 15px;
-    font-weight: 400px;
+    font-weight: 500;
 }
 
 /*SECTION HERO*/
@@ -96,6 +96,7 @@
     top: -40px;
     width: 90%;
     margin: auto;
+    font-weight: 500;
 }
 
 /*TEAM FORMAT AND GENERAL STYLES FOR TITLES AND PARAGRAPHS*/
@@ -105,8 +106,34 @@
     /* relative because pseudo element triangle needs it */
 }
 
-.padding30{
-    padding: 30px 0;
+@media all and (min-width: 768px) {
+    #team {
+        width: 100%;
+
+    }
+}
+
+/*Responsive para team 1200px*/
+
+@media all and (min-width: 1200px) {
+    #team {
+        width: 100%;
+        position: relative;
+        width: 601px;
+        transform: translate(50vh, 0px);
+    }
+
+}
+.padding45{
+    padding: 45px 0 15px;
+}
+
+.padding30 {
+    padding: 30px 0 15px;
+}
+
+.paddingweak {
+    padding: 0 0 30px 0;
 }
 
 .title{
@@ -114,7 +141,7 @@
     color: #099d8d;
     display: block;
     text-align: center;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .title1{
@@ -143,9 +170,13 @@
 }
 
 /* Strenghts and weaknesses-tablet and desktop version */
-@media all and (min-width:768px) and (max-width:1200px){
+@media all and (min-width:768px){
 
     .padding30{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .paddingbigscreen{
         padding-top: 45px;
         padding-bottom: 45px;
     }
@@ -175,6 +206,10 @@
 @media all and (min-width:1200px){
 
     .padding30{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .paddingbigscreen{
         padding-top: 45px;
         padding-bottom: 45px;
     }
@@ -273,6 +308,7 @@
     padding: 15px 0;
     font-family:'Open Sans', sans-serif;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .social{
@@ -311,7 +347,12 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #b8b8b9;
+<<<<<<< HEAD
     padding: 30px 0 20px 0;
+=======
+    border-top: 1px solid gray;
+    padding: 29px 0 20px;
+>>>>>>> af35aa6b21586a3eaabe55e25678fc1684be4cd9
     text-align: center;
 }
 
@@ -326,7 +367,10 @@ footer{
     color: #b8b8b9;
     display: block;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
+}
+.center{
+    text-align: center;
 }
 
 .logo{
