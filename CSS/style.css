@@ -300,6 +300,7 @@
     padding: 15px 0;
 }
 
+
 .img{
     width: 180px;
     height: 180px;
@@ -309,35 +310,40 @@
     border-radius: 10px;
 }
 
+
 .imgEm{
     background: url("../imagen/emma.JPG");
     background-size: cover;
     background-repeat: no-repeat;
+    transform: rotate(-0deg);
 }
 
 .imgDesi{
     background: url("../imagen/desiree.JPG");
     background-size: cover;
     background-repeat: no-repeat;
+    transform: rotate(-0deg);
 }
 
 .imgKati{
     background: url("../imagen/katia.JPG");
     background-size: cover;
     background-repeat: no-repeat;
+    transform: rotate(-0deg);
 }
 
 .imgIn{
     background: url("../imagen/inma.JPG");
     background-size: cover;
     background-repeat: no-repeat;
-    transform: rotate(-90deg);
+    transform: rotate(-0deg);
 }
 
 .imgMa{
     background: url("../imagen/marina.JPG");
     background-size: cover;
     background-repeat: no-repeat;
+    transform: rotate(-0deg);
 }
 
 .name{
@@ -347,11 +353,97 @@
     font-weight: 400;
 }
 
+
 .social{
     margin: auto;   
     padding: 15px 0; 
 }
 
+@media all and (min-width: 768px){
+
+    .ficha{
+        display: flex;
+        max-width: 900px;
+        width:100%;
+        margin: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 300px;
+        padding: 45px 30px 60px 30px;
+        }
+ 
+    .img{
+        width: 205px;
+        height: 205px;
+        }
+
+    .name{
+        margin-left: 30px;
+        text-align: left;
+
+        }
+
+    .social {
+        display: flex;
+        text-align: left;
+        margin-left: 30px;
+        padding-top: 15px;
+        }
+
+    .textquery {
+        margin-left: 30px;
+        text-align: left;
+        max-width: 600px;
+        width:100%;
+        }
+        /* comprobar tamaño texto y max width */
+    
+    .data {
+        margin top: 45px;
+        }
+    
+    .change {
+    
+        flex-direction: row-reverse;
+        }
+
+    .alignreverse {
+        justify-content: flex-end;
+        }
+        
+    .alineicon{
+        align-self: flex-end;
+    }
+
+    .quienessomos {
+        margin-bottom: 30px;
+        }
+    
+}
+
+@media all and (min-width: 1200px){
+    .img{
+        width: 278px;
+        height: 278px;
+    }
+    
+    
+    .social {
+        display: flex;
+        text-align: left;
+        margin-left: 30px;
+        padding-top: 15px;
+    }
+    .textquery {
+        margin-left: 30px;
+        text-align: left;
+        max-width: 600px;
+        width:100%;
+        max-height: 300px;
+        flex-direction: row;
+    }
+
+}
 .social span, i{
     font-size: 20px;
     color: #099d8d;
