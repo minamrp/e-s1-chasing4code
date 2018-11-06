@@ -292,11 +292,14 @@ a{
 
 /* FOOTER*/
 
+footer{
+    border-top: 1px solid #b8b8b9;
+}
+
 .copyright{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #b8b8b9;
-    border-top: 1px solid gray;
     padding: 10px 0;
     text-align: center;
 }
@@ -305,6 +308,9 @@ small{
     font-size: 14px;
 }
 
+.foot {
+    list-style: none;
+}
 
 .foot a{
     font-family: 'Open Sans', sans-serif;
@@ -322,4 +328,16 @@ small{
 
 .adalab-logo {
     max-height: 45px;
+}
+
+@media all and (min-width:768px) {
+
+    footer {
+        display: flex;
+    }
+
+    .foot{
+        margin-left: auto;
+    }
+
 }
