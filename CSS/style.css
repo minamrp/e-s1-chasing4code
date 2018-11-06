@@ -340,9 +340,6 @@ footer{
 
 @media all and (min-width:768px) {
 
-    footer {
-        display: flex;
-    }
 
     .wrapper-footer{
         padding-bottom: 0;
@@ -383,7 +380,7 @@ footer{
         display: flex;
         align-self: center;
         order: -1;
-        margin-top: 15px;
+        margin: 15px 0 40px 0;
     }
 
 }
