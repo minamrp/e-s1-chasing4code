@@ -74,6 +74,7 @@
     /* height 440px to shrink distance between claim and equipo title, measures approx */
 }
 
+
 .cover{
     background-image: url(../imagen/grupo.jpg);
     background-size: cover;
@@ -99,6 +100,40 @@
     font-weight: 500;
 }
 
+/* Media queries para tablet 768px */
+
+@media all and (min-width: 768px) {
+    .claim {
+    text-align:start;
+    margin-left: 45px;
+    width: 441px;
+    padding: 15px 30px;
+    top: -95px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgba(231, 241, 240, 0.80);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.teamName {
+    background color: rgba(9, 157, 141, 0.98)
+    width: 100%;
+}
+
+}
+
+/* Media queries para version web 1200px*/
+
+@media all and(min-width: 1200px){
+    .claim {
+    }
+}
+
 /*TEAM FORMAT AND GENERAL STYLES FOR TITLES AND PARAGRAPHS*/
 
 #team {
@@ -121,6 +156,7 @@
         position: relative;
         width: 601px;
         transform: translate(50vh, 0px);
+        padding-bottom: 45px;
     }
 
 }
