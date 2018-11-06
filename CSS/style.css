@@ -55,6 +55,32 @@
     margin-right: 20px;
 }
 
+/** seccion header**/
+@media all and (min-width:768px){
+    .header{
+        display: flex;
+    }
+   .teamName{
+     display: flex; 
+     align-items: flex-start;
+     padding-left: 45px; 
+     height: 60px;
+   }
+    .menu{
+    height: 60px;
+    background-color: rgba(9, 157, 141, 0.98);
+  }
+  .barra--ul{
+    padding-top: 21px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  li{
+      margin-right: 0;
+  }
+}
+/***********************************************/
+
 /* removing link styles */
 .nodeco{
     text-decoration: none;
