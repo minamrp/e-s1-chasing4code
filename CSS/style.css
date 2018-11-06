@@ -106,11 +106,10 @@
     /* relative because pseudo element triangle needs it */
 }
 
-/*Responsive para team 768px a 1200px*/
-
 @media all and (min-width: 768px) {
     #team {
         width: 100%;
+
     }
 }
 
@@ -119,10 +118,12 @@
 @media all and (min-width: 1200px) {
     #team {
         width: 100%;
+        position: relative;
+        width: 601px;
+        transform: translate(50vh, 0px);
     }
 
 }
-
 .padding45{
     padding: 45px 0 15px;
 }
