@@ -26,7 +26,7 @@
     font-family: 'Rubik';
     font-size: 16px;
     text-align: center;
-    font-weight: 400; 
+    font-weight: 500; 
 }
 
 
@@ -63,7 +63,7 @@
 .white-link, .white-link a {
     color: #FFFFFF;
     font-size: 15px;
-    font-weight: 400px;
+    font-weight: 500;
 }
 
 /*SECTION HERO*/
@@ -96,6 +96,7 @@
     top: -40px;
     width: 90%;
     margin: auto;
+    font-weight: 500;
 }
 
 /*TEAM FORMAT AND GENERAL STYLES FOR TITLES AND PARAGRAPHS*/
@@ -105,8 +106,33 @@
     /* relative because pseudo element triangle needs it */
 }
 
-.padding30{
-    padding: 30px 0;
+/*Responsive para team 768px a 1200px*/
+
+@media all and (min-width: 768px) {
+    #team {
+        width: 100%;
+    }
+}
+
+/*Responsive para team 1200px*/
+
+@media all and (min-width: 1200px) {
+    #team {
+        width: 100%;
+    }
+
+}
+
+.padding45{
+    padding: 45px 0 15px;
+}
+
+.padding30 {
+    padding: 30px 0 15px;
+}
+
+.paddingweak {
+    padding: 0 0 30px 0;
 }
 
 .title{
@@ -114,7 +140,7 @@
     color: #099d8d;
     display: block;
     text-align: center;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .title1{
@@ -273,6 +299,7 @@
     padding: 15px 0;
     font-family:'Open Sans', sans-serif;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .social{
@@ -297,7 +324,7 @@ a{
     font-size: 14px;
     color: #b8b8b9;
     border-top: 1px solid gray;
-    padding: 10px 0;
+    padding: 29px 0 20px;
     text-align: center;
 }
 
@@ -309,15 +336,17 @@ small{
 .foot a{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #54585a;
+    color: #b8b8b9;
     display: block;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
+}
+.center{
+    text-align: center;
 }
 
 .logo{
-    padding: 30px 0;
-    text-align: center;
+    padding: 30px 0 45px;
 }
 
 .adalab-logo {
