@@ -169,9 +169,13 @@
 }
 
 /* Strenghts and weaknesses-tablet and desktop version */
-@media all and (min-width:768px) and (max-width:1200px){
+@media all and (min-width:768px){
 
     .padding30{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .paddingbigscreen{
         padding-top: 45px;
         padding-bottom: 45px;
     }
@@ -201,6 +205,10 @@
 @media all and (min-width:1200px){
 
     .padding30{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .paddingbigscreen{
         padding-top: 45px;
         padding-bottom: 45px;
     }
