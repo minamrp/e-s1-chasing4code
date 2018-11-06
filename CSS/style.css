@@ -345,7 +345,7 @@ footer{
     }
 
     .wrapper-footer{
-        padding-bottom: 60px;
+        padding-bottom: 0;
     }
 
     .container-copy-nav {
@@ -358,6 +358,7 @@ footer{
     .footer-nav{
         margin-left: auto;
         display: inline-block;
+        margin-bottom: 60px;
     }
 
     .footer-nav li{
@@ -371,12 +372,18 @@ footer{
     .copyright{
         text-align: left;
         padding-top: 5px;
+        height: 20px;
+        padding-bottom: 0px;
+        position: relative;
+        left: -110px;
+        max-height: 10px;
     }
 
     .logo{
-        display: inline-block;
-        position: relative;
-        bottom: 45px;
+        display: flex;
+        align-self: center;
+        order: -1;
+        margin-top: 15px;
     }
 
 }
