@@ -1,44 +1,39 @@
 *{
     box-sizing: content-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-
-.mother{
-    position: relative;
-}
-
-
-/*Header......................................................................*/
+/*HEADER*/
 
 .header {
-    height: 105px;
     font-family: 'Rubik';
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .teamName {
     box-sizing: border-box;
     width: 100%;
     height: 60px;
-    padding: 10px;
+    padding: 19px;
     text-align: center;
-    background-color: rgba(9, 157, 141, 0.89);
+    background-color: rgba(9, 157, 141, 0.98);
 }
 
 .teamName h1 {
     font-family: 'Rubik';
     font-size: 16px;
     text-align: center;
+    font-weight: 500; 
 }
 
 
-.menu{
+.menu {
     width: 100%;
     height: 45px;
-    background-color: rgba(20, 217, 196, 0.8);
+    background-color: rgba(20, 217, 196, 0.95);
     text-align: center;
     }
 
@@ -49,7 +44,6 @@
     margin: 5px;
     text-align: center;
     list-style: none;
-    height: 20px;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
@@ -57,45 +51,118 @@
 }
 
 
-.barra--ul li{
-    margin-right: 40px;
+.barra--ul li {
+    margin-right: 20px;
 }
 
-.nodeco{
+/** seccion header**/
+@media all and (min-width:768px) {
+    .header {
+        display: flex;
+    }
+   .teamName {
+     display: flex; 
+     align-items: flex-start;
+     padding-left: 45px; 
+     height: 60px;
+   }
+    .menu {
+    height: 60px;
+    background-color: rgba(9, 157, 141, 0.98);
+  }
+  .barra--ul {
+    padding-top: 21px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  li {
+      margin-right: 0;
+  }
+}
+
+
+.nodeco, .nodeco li a {
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 0.9rem;
 }
-/*...............................................................................*/
 
+.white-link, .white-link a {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+}
 
-/*Hero and claim..................................................................*/
+/*SECTION HERO*/
 
 .hero {
     width: 100%;
-    position: absolute;
+    height: 440px; 
+    /* height 440px to shrink distance between claim and equipo title, measures approx */
 }
 
-.mother{
-    position: relative;
-}
 
 .cover{
     background-image: url(../imagen/grupo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    height: 300px;
+    height: 421px;
     width: 100%;
 }
-/* ........................................................................................*/
 
-/* Change the opacity when we get to contact text............................
 
-@media all and (height: 330px){
+.claim {
+    position: relative;
+    font-size: 18px;
+    font-family: 'Rubik', 'Open Sans', 'sans-serif';
+    padding: 15px 15px;
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    text-align: center;
+    top: -40px;
+    width: 90%;
+    margin: auto;
+    font-weight: 500;
+}
+
+/* Media queries para tablet 768px */
+
+@media all and (min-width: 768px) {
+    .claim {
+    text-align:start;
+    margin-left: 45px;
+    width: 441px;
+    padding: 15px 30px;
+    top: -95px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgba(231, 241, 240, 0.80);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.teamName {
+    background-color: rgba(9, 157, 141, 0.98);
+    width: 100%;
+}
+
+
+
+/* Media queries para version web 1200px*/
+/* 
+@media all and(min-width: 1200px){
+    .claim {
+    }
+} */
+
+
+
+
+@media all and (height: 330px) {
     .menu{
         background-color: rgba(20, 217, 196);
         }
@@ -105,15 +172,9 @@
         }
 }
 
-.........................................................................*/
-
-
-
-
 
 
 .form{
-    position: absolute;
     top: 330px;
 }
 
@@ -156,43 +217,89 @@
     width: 90%;
     margin: auto;
     padding-bottom: 45px;
-  }
-  
-  footer {
+}
+
+footer {
     border-top: 1px solid #b8b8b9;
-  }
-  
-  .container-copy-nav {
+}
+
+.container-copy-nav {
     padding-bottom: 30px;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #b8b8b9;
     padding: 30px 0 20px 0;
     text-align: center;
-  }
-  
-  .footer-nav {
+}
+
+.footer-nav {
     list-style: none;
-  }
-  
-  .footer-nav a {
+}
+
+.footer-nav a {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #b8b8b9;
     display: block;
     text-align: center;
     font-weight: 500;
-  }
+}
 
-  .logo {
+.logo {
     text-align: center;
     margin-top: 30px;
-  }
-  
-  .adalab-logo {
+}
+
+.adalab-logo {
     max-height: 45px;
     max-width: 115.9px;
-  }
+}
+
+
+@media all and (min-width:768px) {
+
+
+    .wrapper-footer{
+        padding-bottom: 0;
+    }
+
+    .container-copy-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        margin-top: 25px;
+    }
+
+    .footer-nav{
+        margin-left: auto;
+        display: inline-block;
+        margin-bottom: 60px;
+    }
+
+    .footer-nav li{
+        padding: 5px;
+    }
+
+    .footer-nav a{
+        text-align: end;
+    }
+
+    .copyright{
+        text-align: left;
+        padding-top: 5px;
+        height: 20px;
+        padding-bottom: 0px;
+        position: relative;
+        left: -110px;
+        max-height: 10px;
+    }
+
+    .logo{
+        display: flex;
+        align-self: center;
+        order: -1;
+        margin: 15px 0 40px 0;
+    }
