@@ -80,8 +80,11 @@
   }
 }
 
+.nodeco {
+    text-decoration: none;
+}
 
-.nodeco, .nodeco li a {
+.nodeco li a {
     text-decoration: none;
 }
 
@@ -297,9 +300,10 @@ footer {
         max-height: 10px;
     }
 
-    .logo{
+    .logo {
         display: flex;
         align-self: center;
         order: -1;
         margin: 15px 0 40px 0;
     }
+
