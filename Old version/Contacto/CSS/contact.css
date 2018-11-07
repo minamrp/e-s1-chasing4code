@@ -1,0 +1,198 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.mother{
+    position: relative;
+}
+
+
+/*Header......................................................................*/
+
+.header {
+    height: 105px;
+    font-family: 'Rubik';
+    position: fixed;
+    width: 100%;
+}
+
+.teamName {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(9, 157, 141, 0.89);
+}
+
+.teamName h1 {
+    font-family: 'Rubik';
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.menu{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(20, 217, 196, 0.8);
+    text-align: center;
+    }
+
+
+.barra--ul {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    list-style: none;
+    height: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+.barra--ul li{
+    margin-right: 40px;
+}
+
+.nodeco{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+/*...............................................................................*/
+
+
+/*Hero and claim..................................................................*/
+
+.hero {
+    width: 100%;
+    position: absolute;
+}
+
+.mother{
+    position: relative;
+}
+
+.cover{
+    background-image: url(../imagen/grupo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 300px;
+    width: 100%;
+}
+/* ........................................................................................*/
+
+/* Change the opacity when we get to contact text............................
+
+@media all and (height: 330px){
+    .menu{
+        background-color: rgba(20, 217, 196);
+        }
+
+    .teamName {
+        background-color: rgba(9, 157, 141);
+        }
+}
+
+.........................................................................*/
+
+
+
+
+
+
+.form{
+    position: absolute;
+    top: 330px;
+}
+
+
+
+.contact{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    color: #099d8d;
+    display: block;
+    text-align: center;
+}
+
+.paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a 100%;
+    display: block;
+    text-align: center;
+
+}
+
+.subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #54585a 100%;
+    display: block;
+    text-align: center;
+}
+
+.asterisk {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #099d8d;
+}
+
+/* FOOTER*/
+
+.wrapper-footer {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 45px;
+  }
+  
+  footer {
+    border-top: 1px solid #b8b8b9;
+  }
+  
+  .container-copy-nav {
+    padding-bottom: 30px;
+  }
+  
+  .copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #b8b8b9;
+    padding: 30px 0 20px 0;
+    text-align: center;
+  }
+  
+  .footer-nav {
+    list-style: none;
+  }
+  
+  .footer-nav a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #b8b8b9;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .logo {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .adalab-logo {
+    max-height: 45px;
+    max-width: 115.9px;
+  }
