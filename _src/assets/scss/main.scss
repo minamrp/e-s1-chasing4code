@@ -437,19 +437,24 @@
     .quienessomos {
         margin: 45px;
     }
+
+    // .paragraph{
+        // max-width: 430px;
+
+    // }
     .ficha{
         display: flex;
         max-width: 900px;
         width:100%;
-        margin: auto;
+        margin: 45px;
         flex-direction: row;
         max-height: 300px;
-        padding: 45px 30px 60px 30px;
+
         }
  
-    .data{
-        margin-top: 45px;
-        }
+    // .data{
+        // margin-top: 45px;
+        // }
 
     .img{
         width: 205px;
@@ -478,7 +483,7 @@
         max-width: 600px;
         width:100%;
         }
-        /* comprobar tamaño texto y max width */
+        // /* comprobar tamaño texto y max width */
     
     .change {
     
@@ -511,6 +516,9 @@
         margin: 138px;
     }
 
+    .ficha{
+        margin: 138px;
+    }
     .img{
         width: 278px;
         height: 278px;
@@ -530,6 +538,10 @@
         width:100%;
         max-height: 300px;
         flex-direction: row;
+    }
+
+    .alignreverse {
+        text-align: left;
     }
 
 }
