@@ -141,6 +141,10 @@
     /* height 440px to shrink distance between claim and equipo title, measures approx */
 }
 
+.hero--contact {
+    width: 100%;
+}
+
 
 .cover{
     background-image: url(../images/grupo.jpg);
@@ -150,7 +154,6 @@
     height: 421px;
     width: 100%;
 }
-
 
 .claim {
     position: relative;
@@ -236,6 +239,10 @@
 
 .paddingweak {
     padding: 0 0 30px 0;
+}
+
+.padding--contact{
+    padding: 30px 0 60px 0;
 }
 
 .title{
@@ -628,6 +635,19 @@ footer{
 
 }
 
+// CONTACT HTML
+
+.cover--contact{
+    background-image: url(../images/phonecall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
+
+
 .asterisk-fields {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
@@ -641,3 +661,29 @@ footer{
     font-size: 12px;
     color: #099d8d;
 }
+<<<<<<< HEAD
+=======
+
+// CONTACT HTML media queries
+@media all and (min-width: 768px) {
+    .paragraph--contact__tablet{
+        width: 442px;
+    }
+}
+
+
+@media all and (min-width: 1200px) {
+    .paragraph--contact__desktop{
+        width: 601px;
+    }
+
+    .padding60{
+        padding: 45px 0 60px;
+    }
+
+    .cover--height {
+        height: 400px;
+    }
+}
+
+>>>>>>> 05a85a1e6ed85c16f3f647eb7e9be1226053fd85
