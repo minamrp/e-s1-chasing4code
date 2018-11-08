@@ -434,6 +434,9 @@
 
 @media all and (min-width: 768px){
 
+    .quienessomos {
+        margin: 45px;
+    }
     .ficha{
         display: flex;
         max-width: 900px;
@@ -504,6 +507,10 @@
 }
 
 @media all and (min-width: 1200px){
+    .quienessomos {
+        margin: 138px;
+    }
+
     .img{
         width: 278px;
         height: 278px;
