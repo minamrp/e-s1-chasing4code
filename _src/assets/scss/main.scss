@@ -641,6 +641,14 @@ footer{
 
 }
 
+@media all and (min-width:1200px){
+    .wrapper-footer {
+        margin: 0 130px;
+        width: inherit;
+}
+
+}
+
 // CONTACT HTML
 
 .cover--contact{
