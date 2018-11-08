@@ -447,7 +447,6 @@
         max-width: 900px;
         width:100%;
         flex-direction: row;
-        max-height: 300px;
         }
  
     // .data{
@@ -510,38 +509,49 @@
 }
 
 @media all and (min-width: 1200px){
-    .quienessomos {
-        margin: 138px;
-    }
 
+    .paragraph{
+        width: 77%;
+    }
     .ficha{
-        margin: 138px;
+        padding: 0;
+        padding-bottom: 60px;
+    }
+    .right{
+        max-width: 762px;
+    }
+    .name {
+        margin-left: 45px;
+    }
+    .title1 {
+        margin: 45px 0;
+    }
+    .padding30{
+        padding: 0;
+    }
+    .quienessomos {
+        margin: 0 138px;
     }
     .img{
         width: 278px;
         height: 278px;
+        flex-shrink: 0;
     }
-    
-    
     .social {
         display: flex;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 45px;
         padding-top: 15px;
     }
     .textquery {
-        margin-left: 30px;
-        text-align: right;
+        margin-left: 45px;
         max-width: 600px;
         width:100%;
-        max-height: 300px;
         flex-direction: row;
     }
-
     .alignreverse {
-        text-align: left;
+        text-align: right;
     }
-
 }
 .social span, i{
     font-size: 20px;
@@ -708,3 +718,4 @@ footer{
     }
 }
 
+}
