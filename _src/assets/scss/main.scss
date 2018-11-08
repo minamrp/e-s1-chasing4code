@@ -61,19 +61,19 @@
     background-color: rgba(9, 157, 141, 0.98);
     
     }
-   .teamName{
-     display: flex; 
-     align-items: flex-start;
-     padding-left: 45px; 
-     height: 60px;
-     background: none;
-   }
+.teamName{
+    display: flex; 
+    align-items: flex-start;
+    padding-left: 45px; 
+    height: 60px;
+    background: none;
+}
     .menu{
     height: 60px;
     background: none;
     margin-right: 25px;
-  }
-  .barra--ul{
+}
+.barra--ul{
     padding-top: 21px;
     display: flex;
     justify-content: flex-end;
@@ -82,10 +82,10 @@
     margin: 0;
     margin-top: 20.5px;
 
-  }
-  li{
-      margin-right: 0;
-  }
+}
+li{
+    margin-right: 0;
+}
 }
 
 @media all and (min-width:1200px){
@@ -94,19 +94,19 @@
         background-color: rgba(9, 157, 141, 0.98);
         
         }
-       .teamName{
-         display: flex; 
-         align-items: flex-start;
-         padding-left: 138px; 
-         height: 60px;
-         background: none;
-       }
+    .teamName{
+        display: flex; 
+        align-items: flex-start;
+        padding-left: 138px; 
+        height: 60px;
+        background: none;
+    }
         .menu{
         height: 60px;
         background: none;
         margin-right: 108px;
-      }
-      .barra--ul{
+    }
+    .barra--ul{
         padding-top: 21px;
         display: flex;
         justify-content: flex-end;
@@ -114,13 +114,13 @@
         padding: 0;
         margin: 0;
         margin-top: 20.5px;
-    
-      }
-      li{
-          margin-right: 0;
-      }
-    }  
-/***********************************************/
+
+    }
+    li{
+        margin-right: 0;
+    }
+}  
+
 
 /* removing link styles */
 .nodeco{
@@ -141,9 +141,6 @@
     
 }
 
-.hero--contact {
-    width: 100%;
-}
 
 
 .cover{
@@ -208,7 +205,7 @@
         font-weight: 600;
         background-color: rgba(231, 241, 240, 0.80);
     }
-    }
+}
 
 /*TEAM FORMAT AND GENERAL STYLES FOR TITLES AND PARAGRAPHS*/
 
@@ -310,7 +307,7 @@
     }
     .box2{
         max-width: 50%;
-       
+
     }
 
     .box1_pa{
@@ -341,7 +338,7 @@
     }
     .box1{
         max-width: 50%;
-      
+
     }
     .box2{
         max-width: 50%;
@@ -460,7 +457,7 @@
         width:100%;
         flex-direction: row;
         }
- 
+
     // .data{
         // margin-top: 45px;
         // }
@@ -678,10 +675,14 @@ footer{
     .wrapper-footer {
         margin: 0 130px;
         width: inherit;
-
+    }
 }
 
 // CONTACT HTML
+
+.hero--contact {
+    width: 100%;
+}
 
 .cover--contact{
     background-image: url(../images/phonecall.jpg);
@@ -728,8 +729,6 @@ footer{
     .cover--height {
         height: 400px;
     }
-}
-
 }
 
 .anchor {
