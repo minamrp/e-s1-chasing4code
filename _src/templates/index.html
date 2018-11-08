@@ -13,28 +13,17 @@
 
 <body>
 
-    <header class="header">
-        <div class="teamName">
-            <a href="index.html" class="nodeco white-link">
-                <h1>CHASING4CODE</h1>
-            </a>
-        </div>
-            <nav class="menu">
-                <ul class="barra--ul nodeco white-link">
-                    <li><a href="#team">EQUIPO</a></li>
-                    <li><a href="#whoWeAre">QUIENES SOMOS</a></li>
-                    <li><a href="contact.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-    </header>
+    <partial src="_header.html"></partial>
 
     <main>
+<<<<<<< HEAD
+        <main>
         <section class="hero">
             <div class="cover"></div>
             <div class="claim">Tú pones la meta, nosotras el código</div>
         </section>
 
-        <section id="team" class="padding45">
+        <section id="team" class="padding45 anchor">
             <h2 class="title title1">EQUIPO</h2>
             <p class="paragraph padding15">
                 En 2018 cinco de las mejores coders del ejercito americano que formaban un comando, subieron a GitHub repositorios con el código más limpio jamás escrito y no tardaron en unirse a la familia Adalaber.</p>
@@ -44,18 +33,18 @@
 
         <section class="weak-strength">
             <div class="box1 padding30">
-                <h2 class="title title2">Fortalezas</h2>
+                <h2 class="box1_pa title title2">Fortalezas</h2>
                 <p class="box1_pa paragraph padding15">Creamos estructuras html que son amor de SEO; diseñamos apps creativas, responsive y accesibles; nuestro código JS es estimulante y envolvente. Tus amigos preguntarán por quién te ha hecho esa web tan guapa.</p>
             </div>
             <div class="box2 paddingweak paddingbigscreen">
-                <h2 class="title title2">Debilidades</h2>
+                <h2 class="box2_pa title title2">Debilidades</h2>
                 <p class="box2_pa paragraph padding15">Usamos memes para expresar emociones complejas, inventamos palabras en spanglish y perdemos la noción del espacio-tiempo creando código.</p>
             </div>
             </section>
 
-        <section id="whoWeAre" class="padding30 quienessomos">
+        <section id="whoWeAre" class="padding30 quienessomos anchor">
             <h2 class="title title1">QUIÉNES SOMOS</h2>
-            <div class="ficha">
+            <div class="ficha right">
                 <div class="img imgEm" >
                 </div>
                 <div class="data">
@@ -91,7 +80,7 @@
                 </div>
             </div>
 
-            <div class="ficha">
+            <div class="ficha right">
                 <div class="img imgKati"> </div>
 
                 <div class="data">
@@ -143,25 +132,14 @@
             </div>
         </section>
 
+=======
+        <partial src="_hero-claim.html"></partial>
+        <partial src="_team.html"></partial>
+        <partial src="_weak-strength.html"></partial>
+        <partial src="_whoweare.html"></partial>
+>>>>>>> 5dd72c0626a40da269a53dddb622b6ff663fea51
     </main>
-    <footer>
-        <div class="wrapper-footer">
 
-            <div class="container-copy-nav"> 
-                <div class="copyright"><small>CHASING4CODE © 2018</small></div>
-                <ul class="footer-nav nodeco">
-                        <li><a href="#team">EQUIPO</a></li>
-                        <li><a href="#whoWeAre">QUIENES SOMOS</a></li>
-                        <li><a href="contact.html">CONTACTO</a></li>
-                    </ul>
-                    <div class="logo"><a href="https://adalab.es" target="_blank"><img class="adalab-logo" src="assets/images/logo-adalab.png"
-                        alt="Logo-adalab"></a>
-            </div>
-            
-    </div>
-
-        </div>
-    
-    </footer>
+    <partial src="_footer.html"></partial>
 </body>
 </html>
