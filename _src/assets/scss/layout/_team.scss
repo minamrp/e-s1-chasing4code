@@ -1,0 +1,32 @@
+
+/*TEAM FORMAT AND GENERAL STYLES FOR TITLES AND PARAGRAPHS*/
+
+#team {
+    position: relative;
+    /* relative because pseudo element triangle needs it */
+}
+
+@media all and (min-width: 768px) {
+    #team {
+        width: 100%;
+    }
+    .padding45{
+        padding: 45px 0 60px;
+    }
+}
+
+/*Responsive para team 1200px*/
+
+@media all and (min-width: 1200px) {
+    #team {
+        width: 100%;
+        display: block;
+        width: 601px;
+        padding-bottom: 45px;
+        margin: auto;
+        margin-top: 129px;
+    }
+    .padding45{
+        padding: 45px 0 15px;
+    }
+}

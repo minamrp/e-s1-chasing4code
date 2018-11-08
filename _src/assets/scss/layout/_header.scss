@@ -1,0 +1,129 @@
+
+/*HEADER*/
+
+.header {
+    font-family: 'Rubik';
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.teamName {
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    padding: 19px;
+    text-align: center;
+    background-color: rgba(9, 157, 141, 0.98);
+}
+
+.teamName h1 {
+    font-family: 'Rubik';
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500; 
+}
+
+
+.menu{
+    width: 100%;
+    height: 45px;
+    background-color: rgba(20, 217, 196, 0.95);
+    text-align: center;
+    }
+
+
+.barra--ul {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.barra--ul li{
+    margin-right: 20px;
+}
+
+/** seccion header**/
+@media all and (min-width:768px){
+    .header{
+    display: flex;
+    background-color: rgba(9, 157, 141, 0.98);
+    
+    }
+   .teamName{
+     display: flex; 
+     align-items: flex-start;
+     padding-left: 45px; 
+     height: 60px;
+     background: none;
+   }
+    .menu{
+    height: 60px;
+    background: none;
+    margin-right: 25px;
+  }
+  .barra--ul{
+    padding-top: 21px;
+    display: flex;
+    justify-content: flex-end;
+    background: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20.5px;
+
+  }
+  li{
+      margin-right: 0;
+  }
+}
+
+@media all and (min-width:1200px){
+    .header{
+        display: flex;
+        background-color: rgba(9, 157, 141, 0.98);
+        
+        }
+       .teamName{
+         display: flex; 
+         align-items: flex-start;
+         padding-left: 138px; 
+         height: 60px;
+         background: none;
+       }
+        .menu{
+        height: 60px;
+        background: none;
+        margin-right: 108px;
+      }
+      .barra--ul{
+        padding-top: 21px;
+        display: flex;
+        justify-content: flex-end;
+        background: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 20.5px;
+    
+      }
+      li{
+          margin-right: 0;
+      }
+    }  
+/***********************************************/
+
+/* removing link styles */
+.nodeco{
+    text-decoration: none;
+}
+
+.white-link, .white-link a {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+}
