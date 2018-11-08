@@ -155,10 +155,7 @@
 
 /* Media queries para version web 1200px*/
 
-@media all and(min-width: 1200px){
-    .claim {
-    }
-}
+
 
 /*TEAM FORMAT AND GENERAL STYLES FOR TITLES AND PARAGRAPHS*/
 
@@ -586,4 +583,18 @@ footer{
         margin: 15px 0 40px 0;
     }
 
+}
+
+.asterisk-fields {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #54585a;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+.asterisk {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #099d8d;
 }
