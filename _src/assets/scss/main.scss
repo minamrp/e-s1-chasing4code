@@ -446,22 +446,11 @@ li{
     .quienessomos {
         margin: 45px;
     }
-
-    // .paragraph{
-        // max-width: 430px;
-
-    // }
     .ficha{
         display: flex;
-        max-width: 900px;
         width:100%;
         flex-direction: row;
         }
-
-    // .data{
-        // margin-top: 45px;
-        // }
-
     .img{
         width: 205px;
         height: 205px;
@@ -469,52 +458,39 @@ li{
     .change{
         flex-direction: row-reverse;
     }
-
     .name{
         margin-left: 30px;
         text-align: left;
-
         }
-
     .social {
         display: flex;
         text-align: left;
         margin-left: 30px;
         padding-top: 15px;
         }
-
     .textquery {
         margin-left: 30px;
         text-align: left;
         max-width: 600px;
         width: 80%;
         }
-        // /* comprobar tamaño texto y max width */
-    
     .change {
-    
         flex-direction: row-reverse;
         }
-
     .sizephoto{
         flex-shrink: 0;
     }
-
     .alignreverse {
         justify-content: flex-end;
         text-align: right;
         margin-right: 30px;
-    
         }
-    
     .alineicon{
         align-self: flex-end;
     }
-
     .quienessomos {
         margin-bottom: 30px;
         }
-    
 }
 
 @media all and (min-width: 1200px){
@@ -560,6 +536,7 @@ li{
     }
     .alignreverse {
         text-align: right;
+        margin-right: 45px;
     }
 }
 .social span, i{
