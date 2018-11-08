@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
@@ -447,18 +447,22 @@
     .quienessomos {
         margin: 45px;
     }
+
+    // .paragraph{
+        // max-width: 430px;
+
+    // }
     .ficha{
         display: flex;
         max-width: 900px;
         width:100%;
-        margin: auto;
         flex-direction: row;
         max-height: 300px;
         }
  
-    .data{
-        margin-top: 45px;
-        }
+    // .data{
+        // margin-top: 45px;
+        // }
 
     .img{
         width: 205px;
@@ -485,9 +489,9 @@
         margin-left: 30px;
         text-align: left;
         max-width: 600px;
-        width:100%;
+        width: 80%;
         }
-        /* comprobar tamaño texto y max width */
+        // /* comprobar tamaño texto y max width */
     
     .change {
     
@@ -520,6 +524,9 @@
         margin: 138px;
     }
 
+    .ficha{
+        margin: 138px;
+    }
     .img{
         width: 278px;
         height: 278px;
@@ -539,6 +546,10 @@
         width:100%;
         max-height: 300px;
         flex-direction: row;
+    }
+
+    .alignreverse {
+        text-align: left;
     }
 
 }
@@ -655,7 +666,6 @@ footer{
     .wrapper-footer {
         margin: 0 130px;
         width: inherit;
-}
 
 }
 
@@ -708,3 +718,4 @@ footer{
     }
 }
 
+ }
