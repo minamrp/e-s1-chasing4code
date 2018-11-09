@@ -7,10 +7,9 @@
 
 @import 'layout/hero';
 
-<<<<<<< HEAD
-@import 'layout/team';
 
-=======
+@import 'layout/team';
+    /* BELOW INCOMING CHANGES FROM LATEST PULL, DIDNT DARE TO DELETE */
 .header {
     font-family: 'Rubik';
     position: fixed;
@@ -244,8 +243,9 @@ li{
     }
 }
 
+/* END OF INCOMING CHANGES FROM LATEST PULL, DIDNT DARE TO DELETE */
+
 /* Strenghts and weaknesses*/
->>>>>>> 5e5cf57cc8e9abef831021602983ee156abc6443
 .padding45{
     padding: 67px 0 15px;
 }
