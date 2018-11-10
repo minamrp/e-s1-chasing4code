@@ -1,5 +1,4 @@
-
-/* WHO WE ARE */
+@import '../core/settings';
 
 .quienessomos{
     background-color: #FFFFFF;
@@ -58,7 +57,7 @@
 
 .name{
     padding: 15px 0;
-    font-family:'Open Sans', sans-serif;
+    font-family: $fontText;
     font-size: 20px;
     font-weight: 400;
 }

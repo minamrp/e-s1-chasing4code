@@ -1,4 +1,4 @@
-/*SECTION HERO*/
+@import '../core/settings';
 
 .hero {
     width: 100%;
@@ -30,7 +30,7 @@
 .claim {
     position: relative;
     font-size: 18px;
-    font-family: 'Rubik', 'Open Sans', 'sans-serif';
+    font-family: $fontText;
     padding: 15px 15px;
     box-sizing: border-box;
     color: black;
@@ -52,7 +52,7 @@
     padding: 15px 30px;
     top: -95px;
     font-size: 24px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontText;
     font-weight: 600;
     background-color: rgba(231, 241, 240, 0.80);
 }
@@ -69,7 +69,7 @@
         padding: 15px 30px;
         top: -95px;
         font-size: 24px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $fontText;
         font-weight: 600;
         background-color: rgba(231, 241, 240, 0.80);
     }
