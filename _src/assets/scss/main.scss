@@ -9,6 +9,7 @@
 
 
 @import 'layout/team';
+
     /* BELOW INCOMING CHANGES FROM LATEST PULL, DIDNT DARE TO DELETE */
 .header {
     font-family: 'Rubik';
@@ -500,13 +501,10 @@ footer{
     width: 100%;
 }
 
-
-
 .asterisk-fields {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #54585a;
-    padding: 30px 0 20px 0;
     text-align: center;
 }
 
@@ -516,19 +514,6 @@ footer{
     color: #099d8d;
 }
 
-// CONTACT HTML media queries
-@media all and (min-width: 768px) {
-    .paragraph--contact__tablet{
-        width: 442px;
-    }
-}
-
-
-@media all and (min-width: 1200px) {
-    .paragraph--contact__desktop{
-        width: 601px;
-    }
-
     .padding60{
         padding: 45px 0 60px;
     }
@@ -536,8 +521,9 @@ footer{
     .cover--height {
         height: 400px;
     }
-}
 
 .anchor {
     padding-top: 105px;
 }
+
+@import 'layout/form.scss';

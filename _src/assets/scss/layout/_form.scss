@@ -1,0 +1,59 @@
+/* FORM */
+
+* {
+    box-sizing: content-box;
+}
+
+.paragraph--contact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px;
+}
+
+
+.form--label {
+    color: #54585A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: block;
+    margin: 15px auto;
+}
+
+#email {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.form--field {
+    height: 45px;
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+}
+
+#message {
+    height: 105px;
+    width: 100%; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding:5px;
+    margin: 0;
+}
+
+.submit {
+    height: 45px;
+    margin-top: 30px;
+    color: white;
+    background: #099d8d;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+}
