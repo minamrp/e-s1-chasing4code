@@ -79,6 +79,7 @@ gulp.task('scripts', function(done){
 gulp.task('images', function(done) {
   gulp.src(config.images.src)
     .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
+    .pipe(imagemin())
     .pipe(gulp.dest(config.images.dest));
   done();
 });
@@ -143,7 +144,6 @@ gulp.task('scripts-dist', function(done){
 gulp.task('images-dist', function(done) {
   gulp.src(config.images.src)
     .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
-    .pipe(imagemin())
     .pipe(gulp.dest(config.images.dist));
   done();
 });
