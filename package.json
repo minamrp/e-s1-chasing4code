@@ -19,7 +19,8 @@
 		"gulp-sourcemaps": "*",
 		"gulp-uglify": "*",
 		"gulp-zip": "*",
-		"run-sequence": "*"
+		"run-sequence": "*",
+		"gulp-imagemin": "*"
 	},
 	"scripts": {
 		"start": "gulp",
