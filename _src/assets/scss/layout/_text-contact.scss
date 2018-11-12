@@ -67,13 +67,15 @@
 }
 
 .form--field {
+    box-sizing: border-box;
     height: 45px;
-    padding: 5px;
+    padding: 5px 5px;
     margin: 0px;
     width: 100%;
 }
 
 #message {
+    box-sizing: border-box;
     height: 105px;
     width: 100%; 
     font-family: 'Open Sans', sans-serif;
@@ -142,11 +144,15 @@
         width: 601px;
     }
 
-    .field--email {
+    .form--field {
+        width: 601px;
+    }
+
+    .field--email #email {
         width: 395px;
     }
 
-    .field--phone {
-        width: 150px;
+    .field--phone #phone {
+        width: 162px;
     }
 }
