@@ -34,8 +34,8 @@
     font-family: $fontText;
     padding: 15px 15px;
     box-sizing: border-box;
-    color: black;
-    background-color: white;
+    color: $black;
+    background-color: $color-white;
     text-align: center;
     top: -40px;
     width: 90%;
@@ -55,7 +55,7 @@
     font-size: 24px;
     font-family: $fontText;
     font-weight: 600;
-    background-color: rgba(231, 241, 240, 0.80);
+    background-color: $claimBrackground;
 }
 }
 
@@ -72,6 +72,6 @@
         font-size: 24px;
         font-family: $fontText;
         font-weight: 600;
-        background-color: rgba(231, 241, 240, 0.80);
+        background-color: $claimBrackground;
     }
     }
