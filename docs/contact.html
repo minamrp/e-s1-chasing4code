@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chasing4Code</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:400,500"
+        rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="teamName"> <a href="index.html" class="nodeco white-link">
+                <h1>CHASING4CODE</h1>
+            </a>
+
+            </div>
+            <nav class="menu">
+                <ul class="barra--ul nodeco white-link">
+                    <li><a href="/index.html#team">EQUIPO</a>
+
+                    </li>
+                    <li><a href="index.html#whoWeAre">QUIENES SOMOS</a>
+
+                    </li>
+                    <li><a href="contact.html">CONTACTO</a>
+
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero--contact">
+                <div class="cover--contact"></div>
+            </section>
+            <section class="padding--contact--contact">
+                 <h2 class="title title1">CONTACTO</h2>
+
+                <p class="paragraph--contact">Si tienes alguna duda o quieres saber algo más sobre nosotras, rellena
+                    el siguiente formulario y nos pondremos en contacto contigo.</p>
+                <p class="asterisk-fields">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.</p>
+                <form
+                action="/signup" method="POST">
+                    <div class="form">
+                        <div class="field--name">
+                            <label for="name" class="form--label">Nombre completo <span class="asterisk">*</span>
+
+                            </label>
+                            <input class="form--field" id="name" type="text" placeholder="Nombre..."
+                            name="name" required>
+                        </div>
+                        <div class="field--email">
+                            <label for="email" class="form--label">Email <span class="asterisk">*</span>
+
+                            </label>
+                            <input class="form--field" id="email" type="email" placeholder="nombre.apellidos@mail.com"
+                            name="email" required>
+                        </div>
+                        <div class="field--phone">
+                            <label for="phone" class="form--label">Teléfono</label>
+                            <input class="form--field" id="phone" type="tel" placeholder="Ej: 123456789"
+                            name="phone" required>
+                        </div>
+                        <div class="field-message">
+                            <label for="message" class="form--label">Mensaje <span class="asterisk">*</span>
+
+                            </label>
+                            <textarea id="message" cols="1" rows="1" placeholder="¿Qué necesitas?"
+                            name="message"></textarea>
+                        </div>
+                        <input class="submit" type="submit" value="ENVIAR">
+                    </div>
+                    </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="wrapper-footer">
+                <div class="container-copy-nav">
+                    <div class="copyright"><small>CHASING4CODE © 2018</small>
+
+                    </div>
+                    <ul class="footer-nav">
+                        <li><a href="#team">EQUIPO</a>
+
+                        </li>
+                        <li><a href="#whoWeAre">QUIENES SOMOS</a>
+
+                        </li>
+                        <li><a href="contact.html">CONTACTO</a>
+
+                        </li>
+                    </ul>
+                    <div class="logo"><a href="https://adalab.es" target="_blank"><img class="adalab-logo" src="assets/images/logo-adalab.png"
+                alt="Logo-adalab"></a>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
