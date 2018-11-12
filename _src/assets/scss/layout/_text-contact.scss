@@ -1,0 +1,146 @@
+/* FORM */
+
+* {
+    box-sizing: content-box;
+}
+
+.hero--contact {
+    height: 300px;
+    width: 100%;
+}
+
+.cover--contact{
+    background-image: url(../images/phonecall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
+.padding--contact--contact {
+    margin: 30px 15px 60px;
+}
+
+.paragraph--contact {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a;
+    text-align: center;
+    margin: 15px auto;
+    
+}
+
+.asterisk-fields {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #54585a;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.asterisk {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #099d8d;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    padding: 0px;
+}
+
+.form--label {
+    color: #54585A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: block;
+    margin: 15px auto 5px;
+}
+
+#email {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.form--field {
+    height: 45px;
+    padding: 5px;
+    margin: 0px;
+    width: 96%;
+}
+
+#message {
+    height: 105px;
+    width: 96%; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding:5px;
+    margin: 0;
+}
+
+.submit {
+    height: 45px;
+    margin-top: 30px;
+    color: white;
+    background: #099d8d;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+}
+
+@media all and (min-width: 768px) {    
+    .paragraph--contact {
+        width: 442px;
+    }
+
+    .form {
+        width: 442px;
+    }
+
+    .submit {
+        width: 206px;
+        align-self: flex-end;
+    }
+
+}
+
+@media all and (min-width:1200px) {
+    
+    .hero--contact {
+        height: 400px;
+    }
+    
+    .cover--contact {
+        height: 400px;
+    }
+
+    .padding--contact--contact {
+        margin: 45px 299.5px 120px;
+    }
+
+    .paragraph--contact {
+        width: 601px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    .title {
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 601px;
+    }
+
+    .field--email {
+        width: 395px;
+    }
+
+    .field--phone {
+        width: 150px;
+    }
+}

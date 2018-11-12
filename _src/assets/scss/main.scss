@@ -17,60 +17,9 @@
 
 // CONTACT HTML
 
-.hero--contact {
-    width: 100%;
-}
-
-.cover--contact{
-    background-image: url(../images/phonecall.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
-}
-
-.padding--contact{
-    padding: 30px 0 60px 0;
-}
-
-
-.asterisk-fields {
-    font-family: $fontText;
-    font-size: 12px;
-    color: #54585a;
-    padding: 30px 0 20px 0;
-    text-align: center;
-}
-
-.asterisk {
-    font-family: $fontText;
-    font-size: 12px;
-    color: #099d8d;
-}
-
-// CONTACT HTML media queries
-@media all and (min-width: 768px) {
-    .paragraph--contact__tablet{
-        width: 442px;
-    }
-}
-
-
-@media all and (min-width: 1200px) {
-    .paragraph--contact__desktop{
-        width: 601px;
-    }
-
-    .padding60{
-        padding: 45px 0 60px;
-    }
-
-    .cover--height {
-        height: 400px;
-    }
-}
 
 .anchor {
     padding-top: 105px;
 }
+
+@import 'layout/text-contact.scss';
