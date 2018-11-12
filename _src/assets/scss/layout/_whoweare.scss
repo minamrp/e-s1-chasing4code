@@ -1,7 +1,6 @@
 @import '../core/settings';
 
 
-
 .title--padding {
     padding: 30px 0 15px;
 }
@@ -14,7 +13,6 @@
 .ficha {
     padding: 15px 0;
 }
-
 
 .img{
     width: 180px;
@@ -76,21 +74,32 @@
 
 @media all and (min-width: 768px){
 
+
     .quienessomos {
         margin: 45px;
-    }
-    .ficha{
-        display: flex;
-        width:100%;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 45px 1fr 1fr 1fr 1fr 1fr;
         }
+    // .ficha{
+    //     display: flex;
+    //     width:100%;
+    //     flex-direction: row;
+    //     }
+
+    .title{
+        grid-column: span 3;
+    }
+
+    .imgEm {}
+    
     .img{
         width: 205px;
         height: 205px;
         }
     .change{
         flex-direction: row-reverse;
-    }
+        }
     .name{
         margin-left: 30px;
         text-align: left;
@@ -180,4 +189,111 @@
 a{
     text-decoration: none;
 }
+
+
+
+//     .quienessomos {
+//         margin: 45px;
+//     }
+//     .ficha{
+//         display: flex;
+//         width:100%;
+//         flex-direction: row;
+//         }
+//     .img{
+//         width: 205px;
+//         height: 205px;
+//         }
+//     .change{
+//         flex-direction: row-reverse;
+//     }
+//     .name{
+//         margin-left: 30px;
+//         text-align: left;
+//         }
+//     .social {
+//         display: flex;
+//         text-align: left;
+//         margin-left: 30px;
+//         padding-top: 15px;
+//         }
+//     .textquery {
+//         margin-left: 30px;
+//         text-align: left;
+//         max-width: 600px;
+//         width: 80%;
+//         }
+//     .change {
+//         flex-direction: row-reverse;
+//         }
+//     .sizephoto{
+//         flex-shrink: 0;
+//     }
+//     .alignreverse {
+//         justify-content: flex-end;
+//         text-align: right;
+//         margin-right: 30px;
+//         }
+//     .alineicon{
+//         align-self: flex-end;
+//     }
+//     .quienessomos {
+//         margin-bottom: 30px;
+//         }
+// }
+
+// @media all and (min-width: 1200px){
+
+//     .paragraph{
+//         width: 77%;
+//     }
+//     .ficha{
+//         padding: 0;
+//         padding-bottom: 60px;
+//     }
+//     .right{
+//         max-width: 762px;
+//     }
+//     .name {
+//         margin-left: 45px;
+//     }
+//     .title1 {
+//         margin: 45px 0;
+//     }
+//     .title--padding {
+//         padding: 0;
+//     }
+//     .quienessomos {
+//         margin: 0 138px;
+//     }
+//     .img{
+//         width: 278px;
+//         height: 278px;
+//         flex-shrink: 0;
+//     }
+//     .social {
+//         display: flex;
+//         text-align: left;
+//         margin-left: 45px;
+//         padding-top: 15px;
+//     }
+//     .textquery {
+//         margin-left: 45px;
+//         max-width: 600px;
+//         width:100%;
+//         flex-direction: row;
+//     }
+//     .alignreverse {
+//         text-align: right;
+//         margin-right: 45px;
+//     }
+// }
+// .social span, i{
+//     font-size: 20px;
+//     color: #099d8d;
+// }
+
+// a{
+//     text-decoration: none;
+// }
 
