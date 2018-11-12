@@ -7,7 +7,7 @@
 }
 
 .quienessomos{
-    background-color: #FFFFFF;
+    background-color: $color-white;
     text-align: center;
 }
 
@@ -174,7 +174,7 @@
 }
 .social span, i{
     font-size: 20px;
-    color: #099d8d;
+    color: $socialIcons;
 }
 
 a{

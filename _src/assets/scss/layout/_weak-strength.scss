@@ -2,7 +2,7 @@
 
 .title{
     font-family: $fontTitle;
-    color: #099d8d;
+    color: $sectionTitles;
     display: block;
     text-align: center;
     font-weight: 500;
@@ -19,7 +19,7 @@
 .paragraph {
         font-family: $fontText;
         font-size: 16px;
-        color: #54585a;
+        color: $paragraph;
         text-align: center;
         width: 90%;
         margin: auto;
@@ -30,7 +30,7 @@
 }
 
 .weak-strength {
-    background-color: rgba(236, 233, 233, 0.89);
+    background-color: $backgroundWandS;
 }
 
 @media all and (min-width:768px){

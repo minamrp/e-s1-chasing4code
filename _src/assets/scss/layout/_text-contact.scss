@@ -23,26 +23,26 @@
 }
 
 .paragraph--contact {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontText;
     font-size: 16px;
-    color: #54585a;
+    color: $paragraph;
     text-align: center;
     margin: 15px auto;
     
 }
 
 .asterisk-fields {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontText;
     font-size: 12px;
-    color: #54585a;
+    color: $paragraph;
     text-align: center;
     margin-top: 15px;
 }
 
 .asterisk {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontText;
     font-size: 12px;
-    color: #099d8d;
+    color: $sectionTitles;
 }
 
 
@@ -54,15 +54,15 @@
 }
 
 .form--label {
-    color: #54585A;
-    font-family: 'Open Sans', sans-serif;
+    color:$paragraph;
+    font-family: $fontText;
     font-size: 14px;
     display: block;
     margin: 15px auto 5px;
 }
 
 #email {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontText;
     font-size: 14px;
 }
 
@@ -78,7 +78,7 @@
     box-sizing: border-box;
     height: 105px;
     width: 100%; 
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontText;
     font-size: 14px;
     padding:5px;
     margin: 0;
@@ -87,9 +87,9 @@
 .submit {
     height: 45px;
     margin-top: 30px;
-    color: white;
-    background: #099d8d;
-    font-family: 'Open Sans', sans-serif;
+    color: $color-white;
+    background: $sectionTitles;
+    font-family: $fontText;
     border-radius: 8px;
     border: none;
 }
