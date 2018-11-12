@@ -1,40 +1,42 @@
-<section class="padding--contact">
+<section class="padding--contact--contact">
 
         <h2 class="title title1">CONTACTO</h2>
-        <p class="paragraph--contact">
-                Si tienes alguna duda o quieres saber algo más sobre nosotras, rellena el siguiente formulario y nos
-                pondremos en contacto contigo.
-        </p>
-        <p class="asterisk-fields">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.</p>
+        
+                <p class="paragraph--contact">
+                        Si tienes alguna duda o quieres saber algo más sobre nosotras, rellena el siguiente formulario y nos
+                        pondremos en contacto contigo.</p>
+
+                <p class="asterisk-fields">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.</p>
+      
 
         <form action="/signup" method="POST">
 
                 <div class="form">
 
-                        <div>
+                        <div class="field--name">
                                 <label for="name" class="form--label">Nombre completo <span class="asterisk">*</span></label>
                                 <input class="form--field" id="name" type="text" placeholder="Nombre..." name="name" required>
                         </div>
 
-                        <div>
+                        <div class="field--email">
                                 <label for="email" class="form--label">Email <span class="asterisk">*</span></label>
-                                <input class="form--field" id="email" type="email" value="nombre.apellidos@mail.com" name="email" required>
+                                <input class="form--field" id="email" type="email" placeholder="nombre.apellidos@mail.com" name="email" required>
                         </div>
 
-                        <div>
+                        <div class="field--phone">
                                 <label for="phone" class="form--label">Teléfono </label>
                                 <input class="form--field" id="phone" type="tel" placeholder="Ej: 123456789" name="phone" required>
                         </div>
 
-                        <div>
+                        <div class="field-message">
                                 <label for="message" class="form--label">Mensaje <span class="asterisk">*</span></label>
                                 <textarea id="message" cols="1" rows="1" placeholder="¿Qué necesitas?" name="message"></textarea>
 
                         </div>
 
-                        <input class="submit" type="submit" value="ENVIAR">
-                </div>
-
+                                <input class="submit" type="submit" value="ENVIAR">
+                
+                </div>        
 
         </form>
 
