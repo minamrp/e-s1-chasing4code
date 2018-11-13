@@ -21,6 +21,10 @@
   width: 100%;
 }
 
+.claim {
+  font-weight: 600;
+}
+
 /* Media queries para hero version web 1200px */
 @media all and(min-width: 1200px) {
   .cover {
@@ -35,12 +39,12 @@
   padding: 15px 15px;
   box-sizing: border-box;
   color: $black;
-  background-color: $color-white;
+  background-color: $white;
   text-align: center;
   top: -40px;
   width: 90%;
   margin: auto;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Media queries para tablet 768px */
