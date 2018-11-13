@@ -2,6 +2,8 @@
 
 #team {
   position: relative;
+  max-width: 601px;
+  margin: auto;
   /* relative because pseudo element triangle needs it */
 }
 
@@ -26,6 +28,8 @@
 @media all and (min-width: 768px) {
   #team {
     width: 100%;
+    max-width: 601px;
+    margin: auto;
   }
 
   .padding45 {
