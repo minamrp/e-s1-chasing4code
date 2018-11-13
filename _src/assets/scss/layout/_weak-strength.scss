@@ -31,9 +31,18 @@
 
 .weak-strength {
     background-color: $backgroundWandS;
+    padding: 30px 0;
+}
+
+.margin-mobile {
+    margin-bottom: 30px;
 }
 
 @media all and (min-width:768px){
+
+    .margin-mobile {
+        margin-bottom: 0;
+    }
 
     .paddingbigscreen{
         padding-top: 45px;
@@ -73,13 +82,8 @@
         justify-content: center;
         
     }
-    .box1{
+    .box{
         max-width: 50%;
-
-    }
-    .box2{
-        max-width: 50%;
-        
     }
 
     .box1_pa{
