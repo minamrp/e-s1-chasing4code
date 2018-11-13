@@ -1,97 +1,100 @@
 @import '../core/settings';
 
 %text-footer {
-    font-family: $fontText;
-    font-size: 14px;
-    color: $darkGrey;
-    text-align: center;
-    font-weight: 600;
+  font-family: $fontText;
+  font-size: 14px;
+  color: $darkGrey;
+  text-align: center;
+  font-weight: 600;
 }
 
-.footer{
-    border-top: 1px solid #b8b8b9;
+.footer {
+  border-top: 1px solid #b8b8b9;
 }
 
 .wrapper-footer {
-    width: 90%;
-    margin: auto;
-    padding-bottom: 45px;
-    @extend %text-footer;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 45px;
+  @extend %text-footer;
 }
 
-.copyright{
-    padding: 30px 0 20px 0;
-    color: $lightGrey; 
+.copyright {
+  padding: 30px 0 20px 0;
+  color: $lightGrey;
 }
 
 .footer-nav {
-    list-style: none;
-    @extend %nodeco;
-    a {
-        display: block;
-        font-weight: 500;
-        @extend %text-footer;
-    }
+  list-style: none;
+  @extend %nodeco;
+
+  a {
+    display: block;
+    font-weight: 500;
+    @extend %text-footer;
+  }
 }
 
-.logo{
-    text-align: center;
-    margin-top: 30px;
+.logo {
+  text-align: center;
+  margin-top: 30px;
 }
 
 .adalab-logo {
-    max-height: 45px;
-    max-width: 115.9px;
+  max-height: 45px;
+  max-width: 115.9px;
 }
 
 @media all and (min-width:768px) {
 
 
-    .wrapper-footer{
-        padding-bottom: 0;
+  .wrapper-footer {
+    padding-bottom: 0;
+  }
+
+  .container-copy-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    margin-top: 25px;
+  }
+
+  .footer-nav {
+    margin-left: auto;
+    display: inline-block;
+    margin-bottom: 60px;
+
+    li {
+      padding: 5px;
     }
 
-    .container-copy-nav {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        margin-top: 25px;
+    a {
+      text-align: end;
     }
+  }
 
-    .footer-nav{
-        margin-left: auto;
-        display: inline-block;
-        margin-bottom: 60px;
-        li{
-            padding: 5px;
-        }
-        a{
-            text-align: end;
-        }
-    }
+  .copyright {
+    text-align: left;
+    padding-top: 5px;
+    height: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    left: -110px;
+    max-height: 10px;
+  }
 
-    .copyright{
-        text-align: left;
-        padding-top: 5px;
-        height: 20px;
-        padding-bottom: 0px;
-        position: relative;
-        left: -110px;
-        max-height: 10px;
-    }
-
-    .logo{
-        display: flex;
-        align-self: center;
-        order: -1;
-        margin: 15px 0 40px 0;
-    }
+  .logo {
+    display: flex;
+    align-self: center;
+    order: -1;
+    margin: 15px 0 40px 0;
+  }
 
 }
 
-@media all and (min-width:1200px){
-    .wrapper-footer {
-        margin: 0 130px;
-        width: inherit;
-    }
+@media all and (min-width:1200px) {
+  .wrapper-footer {
+    margin: 0 130px;
+    width: inherit;
+  }
 }

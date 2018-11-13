@@ -1,53 +1,53 @@
 @import '../core/settings';
 
 .hero {
-    width: 100%;
-    height: 421px; 
-    
+  width: 100%;
+  height: 421px;
+
 }
 
 .hero--contact {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 
-.cover{
-    background-image: url(../images/grupo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 421px;
-    width: 100%;
+.cover {
+  background-image: url(../images/grupo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 421px;
+  width: 100%;
 }
 
 /* Media queries para hero version web 1200px */
-@media all and(min-width: 1200px){
-    .cover {
-        height: 550px;
-    }
+@media all and(min-width: 1200px) {
+  .cover {
+    height: 550px;
+  }
 }
 
 .claim {
-    position: relative;
-    font-size: 18px;
-    font-family: $fontText;
-    padding: 15px 15px;
-    box-sizing: border-box;
-    color: $black;
-    background-color: $color-white;
-    text-align: center;
-    top: -40px;
-    width: 90%;
-    margin: auto;
-    font-weight: 500;
+  position: relative;
+  font-size: 18px;
+  font-family: $fontText;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  color: $black;
+  background-color: $color-white;
+  text-align: center;
+  top: -40px;
+  width: 90%;
+  margin: auto;
+  font-weight: 500;
 }
 
 /* Media queries para tablet 768px */
 
 @media all and (min-width: 768px) {
-    .claim {
-    text-align:start;
+  .claim {
+    text-align: start;
     margin-left: 45px;
     width: 441px;
     padding: 15px 30px;
@@ -56,22 +56,22 @@
     font-family: $fontText;
     font-weight: 600;
     background-color: $claimBrackground;
-}
+  }
 }
 
 
 /* Media queries para version web 1200px*/
 
-@media all and(min-width: 1200px){
-        .claim {
-        text-align:start;
-        margin-left: 138px;
-        width: 441px;
-        padding: 15px 30px;
-        top: -95px;
-        font-size: 24px;
-        font-family: $fontText;
-        font-weight: 600;
-        background-color: $claimBrackground;
-    }
-    }
+@media all and(min-width: 1200px) {
+  .claim {
+    text-align: start;
+    margin-left: 138px;
+    width: 441px;
+    padding: 15px 30px;
+    top: -95px;
+    font-size: 24px;
+    font-family: $fontText;
+    font-weight: 600;
+    background-color: $claimBrackground;
+  }
+}

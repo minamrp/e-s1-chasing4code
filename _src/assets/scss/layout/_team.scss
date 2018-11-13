@@ -1,50 +1,51 @@
-
 @import '../core/settings';
 
 #team {
-    position: relative;
-    /* relative because pseudo element triangle needs it */
+  position: relative;
+  /* relative because pseudo element triangle needs it */
 }
 
 /* pseudo element triangle separator at the end of TEAM section */
 #team:after {
-    border-top: 30px solid #ffffff;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-    bottom: -25px;
-    content: "";
-    position: absolute;
-    left: 50%;
-    margin-left: -25px;
-    width: 0;
-    height: 0;
+  border-top: 30px solid #ffffff;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  bottom: -25px;
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  width: 0;
+  height: 0;
 }
 
-.padding45{
-    padding: 67px 0 15px;
+.padding45 {
+  padding: 67px 0 15px;
 }
 
 @media all and (min-width: 768px) {
-    #team {
-        width: 100%;
-    }
-    .padding45{
-        padding: 45px 0 60px;
-    }
+  #team {
+    width: 100%;
+  }
+
+  .padding45 {
+    padding: 45px 0 60px;
+  }
 }
 
 /*Responsive para team 1200px*/
 
 @media all and (min-width: 1200px) {
-    #team {
-        width: 100%;
-        display: block;
-        width: 601px;
-        padding-bottom: 45px;
-        margin: auto;
-        margin-top: 129px;
-    }
-    .padding45{
-        padding: 45px 0 15px;
-    }
+  #team {
+    width: 100%;
+    display: block;
+    width: 601px;
+    padding-bottom: 45px;
+    margin: auto;
+    margin-top: 129px;
+  }
+
+  .padding45 {
+    padding: 45px 0 15px;
+  }
 }
