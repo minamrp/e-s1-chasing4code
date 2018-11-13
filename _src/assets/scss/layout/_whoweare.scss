@@ -76,6 +76,10 @@
 
 @media all and (min-width: 768px){
 
+    .padding-big-title{
+        padding-bottom: 30px;
+    }
+
     .quienessomos {
         margin: 45px;
     }
@@ -127,6 +131,11 @@
 }
 
 @media all and (min-width: 1200px){
+
+    .padding-big-title{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
 
     .paragraph{
         width: 77%;
