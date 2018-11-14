@@ -3,8 +3,18 @@
 #team {
   position: relative;
   max-width: 601px;
+  padding-bottom: 60px;
   margin: auto;
   /* relative because pseudo element triangle needs it */
+}
+
+.box_team-style {
+  font-family: $fontText;
+  font-size: 16px;
+  color: $paragraph;
+  text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
 /* pseudo element triangle separator at the end of TEAM section */
@@ -21,19 +31,28 @@
   height: 0;
 }
 
-.padding45 {
-  padding: 67px 0 15px;
+.box_team {
+  padding-top: 15px;
+}
+
+.box_top {
+  padding-top: 67px;
 }
 
 @media all and (min-width: 768px) {
   #team {
     width: 100%;
     max-width: 601px;
+    padding-bottom: 60px;
     margin: auto;
   }
 
-  .padding45 {
-    padding: 45px 0 60px;
+  .box_team {
+    padding: 15px 0 0;
+  }
+
+  .box_top {
+    padding-top: 45px;
   }
 }
 
@@ -49,7 +68,11 @@
     margin-top: 129px;
   }
 
-  .padding45 {
-    padding: 45px 0 15px;
+  .box_team {
+    padding: 15px 0 0;
+  }
+
+  .box_top {
+    padding-top: 45px;
   }
 }

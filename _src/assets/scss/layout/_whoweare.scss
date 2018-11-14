@@ -78,6 +78,11 @@
 
 @media all and (min-width: 768px){
 
+    .margin-odd {
+        width: 80%;
+        max-width: 600px;
+    }
+
     .title--padding {
         padding: 0 0 15px;
     }
