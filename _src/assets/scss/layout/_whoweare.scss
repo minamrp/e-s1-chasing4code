@@ -7,7 +7,8 @@
 
 .title--padding {
   padding: 30px 0 15px;
-}
+ }
+
 
 .quienessomos {
   background-color: $white;
@@ -77,11 +78,6 @@
 }
 
 @media all and (min-width: 768px){
-
-    .margin-odd {
-        width: 80%;
-        max-width: 600px;
-    }
 
     .title--padding {
         padding: 0 0 15px;
@@ -232,3 +228,4 @@ a{
 a {
   text-decoration: none;
 }
+
