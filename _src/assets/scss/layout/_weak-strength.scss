@@ -44,6 +44,7 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .paddingbigscreen {
     padding-top: 45px;
     padding-bottom: 60px;
@@ -59,9 +60,12 @@
     width: 100%;
     max-width: 924px;
   }
+
   .box {
     max-width: 450px;
-    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+  
   }
 
   .box1_pa {
@@ -87,7 +91,7 @@
     padding-bottom: 60px;
   }
 
- 
+
   .weak-strength {
     display: flex;
   }
@@ -98,7 +102,7 @@
     width: 100%;
     max-width: 924px;
   }
-  
+
   .box1 {
     max-width: 50%;
 
@@ -109,15 +113,15 @@
 
   }
 
-    .box1_pa {
-   
-     margin-right: 22.5px;
-     margin-left: 0;
+  .box1_pa {
+
+    margin-right: 22.5px;
+    margin-left: 0;
   }
 
   .box2_pa {
-   margin-left: 22.5px;
-   margin-right: 0;
+    margin-left: 22.5px;
+    margin-right: 0;
   }
 
 }
