@@ -1,4 +1,4 @@
-![Adalab](images/logo-adalab-80px.png)
+![Adalab](http://beta.adalab.es/e-s1-chasing4code/assets/images/logo-adalab.png)
 # Adalab web starter kit & Chasing4Code
       
 
