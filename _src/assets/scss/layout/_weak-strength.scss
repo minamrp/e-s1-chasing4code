@@ -80,12 +80,11 @@
     padding-bottom: 60px;
   }
 
-
-  .weak-strength {
+  .weak-strength{
     display: flex;
     justify-content: center;
-
   }
+  
 
   .box1 {
     max-width: 50%;
@@ -97,15 +96,16 @@
 
   }
 
-  .box1_pa {
+    .box1_pa {
     margin-left: 138px;
-    margin-right: 22.5px;
-    width: auto;
+     margin-right: 22.5px;
+     width: auto;
   }
 
   .box2_pa {
-    margin-left: 22.5px;
-    margin-right: 138px;
-    width: auto;
+  margin-left: 22.5px;
+  margin-right: 138px;
+   width: auto;
   }
+
 }
