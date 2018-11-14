@@ -1,6 +1,10 @@
 @import '../core/settings';
 
 
+.padding-big-title {
+    padding-bottom: 15px;
+}
+
 .title--padding {
     padding: 30px 0 15px;
 }
@@ -73,6 +77,10 @@
 }
 
 @media all and (min-width: 768px){
+
+    .title--padding {
+        padding: 0 0 15px;
+    }
 
     .padding-big-title{
         padding-bottom: 30px;
