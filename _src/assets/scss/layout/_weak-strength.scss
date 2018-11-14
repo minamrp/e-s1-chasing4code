@@ -1,99 +1,111 @@
 @import '../core/settings';
 
-.title{
-    font-family: $fontTitle;
-    color: $sectionTitles;
-    display: block;
-    text-align: center;
-    font-weight: 500;
+.title {
+  font-family: $fontTitle;
+  color: $sectionTitles;
+  display: block;
+  text-align: center;
+  font-weight: 500;
 }
 
-.title1{
-    font-size: 24px;
+.title1 {
+  font-size: 24px;
 }
 
-.title2{
-    font-size: 22px;
+.title2 {
+  font-size: 22px;
 }
 
 .paragraph {
-        font-family: $fontText;
-        font-size: 16px;
-        color: $paragraph;
-        text-align: center;
-        width: 90%;
-        margin: auto;
+  font-family: $fontText;
+  font-size: 16px;
+  color: $paragraph;
+  text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
-.padding15{
-    padding: 15px 0;
+.adjustws {
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.padding15 {
+  padding: 15px 0;
 }
 
 .weak-strength {
-    background-color: $backgroundWandS;
-    padding: 30px 0;
+  background-color: $backgroundWandS;
 }
 
-.margin-mobile {
-    margin-bottom: 30px;
+@media all and (min-width:768px) {
+
+  .adjustws {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .paddingbigscreen {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+
+  .weak-strength {
+    display: flex;
+  }
+
+  .box {
+    max-width: 50%;
+  }
+
+  .box1_pa {
+    margin-left: 45px;
+    margin-right: 15px;
+    width: auto;
+
+  }
+
+  .box2_pa {
+    margin-left: 15px;
+    margin-right: 45px;
+    width: auto;
+
+  }
 }
 
-@media all and (min-width:768px){
+@media all and (min-width:1200px) {
 
-    .margin-mobile {
-        margin-bottom: 0;
-    }
 
-    .paddingbigscreen{
-        padding-top: 45px;
-        padding-bottom: 45px;
-    }
-    .weak-strength {
-        display: flex;
-    }
-    .box{
-        max-width: 50%;
-    }
+  .paddingbigscreen {
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
 
-    .box1_pa{
-        margin-left: 45px;
-        margin-right: 15px;
-        width: auto;
-    
-    }
-    .box2_pa{
-        margin-left: 15px;
-        margin-right: 45px;
-        width: auto;
-    
-    }
-}
-@media all and (min-width:1200px){
+  .weak-strength{
+    display: flex;
+    justify-content: center;
+  }
+  
 
-    
-    .paddingbigscreen{
-        padding-top: 45px;
-        padding-bottom: 45px;
-    }
-    
-    
-    .weak-strength {
-        display: flex;
-        justify-content: center;
-        
-    }
-    .box{
-        max-width: 50%;
-    }
+  .box1 {
+    max-width: 50%;
 
-    .box1_pa{
-        margin-left: 138px;
-        margin-right: 22.5px;
-        width: auto;
-    }
-    .box2_pa{
-        margin-left: 22.5px;
-        margin-right: 138px;
-        width: auto;
-    }
+  }
+
+  .box2 {
+    max-width: 50%;
+
+  }
+
+    .box1_pa {
+    margin-left: 138px;
+     margin-right: 22.5px;
+     width: auto;
+  }
+
+  .box2_pa {
+  margin-left: 22.5px;
+  margin-right: 138px;
+   width: auto;
+  }
+
 }

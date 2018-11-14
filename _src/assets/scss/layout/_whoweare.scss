@@ -6,16 +6,16 @@
 }
 
 .title--padding {
-    padding: 30px 0 15px;
+  padding: 30px 0 15px;
 }
 
-.quienessomos{
-    background-color:$colorNameHeader;
-    text-align: center;
+.quienessomos {
+  background-color: $white;
+  text-align: center;
 }
 
 .ficha {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
 .img{
@@ -28,52 +28,52 @@
 }
 
 
-.imgEm{
-    background: url("../images/emma.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: rotate(-0deg);
+.imgEm {
+  background: url("../images/emma.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-0deg);
 }
 
-.imgDesi{
-    background: url("../images/desiree.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: rotate(-0deg);
+.imgDesi {
+  background: url("../images/desiree.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-0deg);
 }
 
-.imgKati{
-    background: url("../images/katia.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: rotate(-0deg);
+.imgKati {
+  background: url("../images/katia.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-0deg);
 }
 
-.imgIn{
-    background: url("../images/inma.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: rotate(-0deg);
+.imgIn {
+  background: url("../images/inma.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-0deg);
 }
 
-.imgMa{
-    background: url("../images/marina.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: rotate(-0deg);
+.imgMa {
+  background: url("../images/marina.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-0deg);
 }
 
-.name{
-    padding: 15px 0;
-    font-family: $fontText;
-    font-size: 20px;
-    font-weight: 400;
+.name {
+  padding: 15px 0;
+  font-family: $fontText;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 
-.social{
-    margin: auto;   
-    padding: 15px 0; 
+.social {
+  margin: auto;
+  padding: 15px 0;
 }
 
 @media all and (min-width: 768px){
@@ -219,3 +219,6 @@ a{
     @extend %nodeco;
 }
 
+a {
+  text-decoration: none;
+}

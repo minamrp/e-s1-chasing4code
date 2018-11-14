@@ -1,158 +1,158 @@
 /* FORM */
 
 * {
-    box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 .hero--contact {
-    height: 300px;
-    width: 100%;
+  height: 300px;
+  width: 100%;
 }
 
 .cover--contact{
-    background-image: url(../images/phonecall.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
+  background-image: url(../images/phonecall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
 }
 
 .padding--contact--contact {
-    margin: 30px 15px 60px;
+  margin: 30px 15px 60px;
 }
 
 .paragraph--contact {
-    font-family: $fontText;
-    font-size: 16px;
-    color: $paragraph;
-    text-align: center;
-    margin: 15px auto;
-    
+  font-family: $fontText;
+  font-size: 16px;
+  color: $paragraph;
+  text-align: center;
+  margin: 15px auto;
+  
 }
 
 .asterisk-fields {
-    font-family: $fontText;
-    font-size: 12px;
-    color: $paragraph;
-    text-align: center;
-    margin-top: 15px;
+  font-family: $fontText;
+  font-size: 12px;
+  color: $paragraph;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .asterisk {
-    font-family: $fontText;
-    font-size: 12px;
-    color: $sectionTitles;
+  font-family: $fontText;
+  font-size: 12px;
+  color: $sectionTitles;
 }
 
 
 .form {
-    display: flex;
-    flex-direction: column;
-    margin: 60px auto;
-    padding: 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  padding: 0px;
 }
 
 .form--label {
-    color:$paragraph;
-    font-family: $fontText;
-    font-size: 14px;
-    display: block;
-    margin: 15px auto 5px;
+  color:$paragraph;
+  font-family: $fontText;
+  font-size: 14px;
+  display: block;
+  margin: 15px auto 5px;
 }
 
 #email {
-    font-family: $fontText;
-    font-size: 14px;
+  font-family: $fontText;
+  font-size: 14px;
 }
 
 .form--field {
-    box-sizing: border-box;
-    height: 45px;
-    padding: 5px 5px;
-    margin: 0px;
-    width: 100%;
+  box-sizing: border-box;
+  height: 45px;
+  padding: 5px 5px;
+  margin: 0px;
+  width: 100%;
 }
 
 #message {
-    box-sizing: border-box;
-    height: 105px;
-    width: 100%; 
-    font-family: $fontText;
-    font-size: 14px;
-    padding:5px;
-    margin: 0;
+  box-sizing: border-box;
+  height: 105px;
+  width: 100%; 
+  font-family: $fontText;
+  font-size: 14px;
+  padding:5px;
+  margin: 0;
 }
 
 .submit {
-    height: 45px;
-    margin-top: 30px;
-    color: $colorNavHeader;
-    background: $sectionTitles;
-    font-family: $fontText;
-    border-radius: 8px;
-    border: none;
+  height: 45px;
+  margin-top: 30px;
+  color: $white;
+  background: $sectionTitles;
+  font-family: $fontText;
+  border-radius: 8px;
+  border: none;
 }
 
 @media all and (min-width: 768px) {    
-    .paragraph--contact {
-        width: 442px;
-    }
+  .paragraph--contact {
+      width: 442px;
+  }
 
-    .form {
-        width: 442px;
-    }
+  .form {
+      width: 442px;
+  }
 
-    .submit {
-        width: 206px;
-        align-self: flex-end;
-    }
+  .submit {
+      width: 206px;
+      align-self: flex-end;
+  }
 
 }
 
 @media all and (min-width:1200px) {
 
-    .block__contact{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .hero--contact {
-        height: 400px;
-    }
-    
-    .cover--contact {
-        height: 400px;
-    }
+  .block__contact{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
+  .hero--contact {
+      height: 400px;
+  }
+  
+  .cover--contact {
+      height: 400px;
+  }
 
-    .padding--contact--contact {
-        margin: 45px 299.5px 120px;
-    }
+  .padding--contact--contact {
+      margin: 45px 299.5px 120px;
+  }
 
-    .paragraph--contact {
-        width: 601px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .title {
-        margin: 0 auto;
-    }
+  .paragraph--contact {
+      width: 601px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .title {
+      margin: 0 auto;
+  }
 
-    .form {
-        width: 601px;
-    }
+  .form {
+      width: 601px;
+  }
 
-    .form--field {
-        width: 601px;
-    }
+  .form--field {
+      width: 601px;
+  }
 
-    .field--email #email {
-        width: 395px;
-    }
+  .field--email #email {
+      width: 395px;
+  }
 
-    .field--phone #phone {
-        width: 162px;
-    }
+  .field--phone #phone {
+      width: 162px;
+  }
 }
