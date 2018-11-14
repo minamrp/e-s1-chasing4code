@@ -53,8 +53,15 @@
     display: flex;
   }
 
+  .container_week {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 924px;
+  }
   .box {
-    max-width: 50%;
+    max-width: 450px;
+    margin: auto;
   }
 
   .box1_pa {
@@ -80,12 +87,18 @@
     padding-bottom: 60px;
   }
 
-  .weak-strength{
+ 
+  .weak-strength {
     display: flex;
-    justify-content: center;
+  }
+
+  .container_week {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 924px;
   }
   
-
   .box1 {
     max-width: 50%;
 
@@ -97,15 +110,14 @@
   }
 
     .box1_pa {
-    margin-left: 138px;
+   
      margin-right: 22.5px;
-     width: auto;
+     margin-left: 0;
   }
 
   .box2_pa {
-  margin-left: 22.5px;
-  margin-right: 138px;
-   width: auto;
+   margin-left: 22.5px;
+   margin-right: 0;
   }
 
 }
