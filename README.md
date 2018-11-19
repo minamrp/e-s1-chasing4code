@@ -19,7 +19,7 @@ Puntos principales:
 
 
 
-:point_right: Si te gustaría contar con nosotras para tu proyecto mándanos un PR :)
+:point_right: Si te gustaría contar con nosotras para tu proyecto mándanos un mensaje :)
 
 
 ![Power kitty](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
