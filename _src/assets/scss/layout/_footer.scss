@@ -94,7 +94,9 @@
 
 @media all and (min-width:1200px) {
   .wrapper-footer {
-    margin: 0 130px;
+    margin: 0 auto;
+    max-width: 924px;
     width: inherit;
+
   }
 }
