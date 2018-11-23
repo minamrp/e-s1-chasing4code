@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.cover--contact{
+.cover--contact {
   background-image: url(../images/phonecall.jpg);
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@
   color: $paragraph;
   text-align: center;
   margin: 15px auto;
-  
+
 }
 
 .asterisk-fields {
@@ -54,7 +54,7 @@
 }
 
 .form--label {
-  color:$paragraph;
+  color: $paragraph;
   font-family: $fontText;
   font-size: 14px;
   display: block;
@@ -77,10 +77,10 @@
 #message {
   box-sizing: border-box;
   height: 105px;
-  width: 100%; 
+  width: 100%;
   font-family: $fontText;
   font-size: 14px;
-  padding:5px;
+  padding: 5px;
   margin: 0;
 }
 
@@ -94,65 +94,65 @@
   border: none;
 }
 
-@media all and (min-width: 768px) {    
+@media all and (min-width: 768px) {
   .paragraph--contact {
-      width: 442px;
+    width: 442px;
   }
 
   .form {
-      width: 442px;
+    width: 442px;
   }
 
   .submit {
-      width: 206px;
-      align-self: flex-end;
+    width: 206px;
+    align-self: flex-end;
   }
 
 }
 
 @media all and (min-width:1200px) {
 
-  .block__contact{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+  .block__contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  
+
   .hero--contact {
-      height: 400px;
+    height: 400px;
   }
-  
+
   .cover--contact {
-      height: 400px;
+    height: 400px;
   }
 
   .padding--contact--contact {
-      margin: 45px 299.5px 120px;
+    margin: 45px 299.5px 120px;
   }
 
   .paragraph--contact {
-      width: 601px;
-      margin-left: auto;
-      margin-right: auto;
+    width: 601px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  
+
   .title {
-      margin: 0 auto;
+    margin: 0 auto;
   }
 
   .form {
-      width: 601px;
+    width: 601px;
   }
 
   .form--field {
-      width: 601px;
+    width: 601px;
   }
 
   .field--email #email {
-      width: 395px;
+    width: 395px;
   }
 
   .field--phone #phone {
-      width: 162px;
+    width: 162px;
   }
 }
