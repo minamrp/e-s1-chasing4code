@@ -13,6 +13,7 @@ const plumber      = require('gulp-plumber');
 const sass         = require('gulp-sass');
 const sourcemaps   = require('gulp-sourcemaps');
 const uglify       = require('gulp-uglify');
+const imagemin     = require('gulp-imagemin');
 
 
 // > Dev tasks
@@ -78,6 +79,7 @@ gulp.task('scripts', function(done){
 gulp.task('images', function(done) {
   gulp.src(config.images.src)
     .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
+    .pipe(imagemin())
     .pipe(gulp.dest(config.images.dest));
   done();
 });
@@ -145,7 +147,6 @@ gulp.task('images-dist', function(done) {
     .pipe(gulp.dest(config.images.dist));
   done();
 });
-
 
 
 // > Watchers + BrowserSync server
